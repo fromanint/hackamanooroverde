@@ -1,0 +1,70 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/form-basic.css">
+  </head><body>
+
+
+    <header>
+      <div class="navbar navbar-default navbar-top " role="banner">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand"><img alt="Brand" src="MARCHANTE.png" height="40"></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="main-content">
+      <!-- You only need this form and the form-basic.css -->
+      <form class="form-basic" method="post" action="#">
+        <div class="form-title-row">
+          <h1>Alta de Producto</h1>
+        </div>
+        <div class="form-row">
+          <label>
+            <span>Productor</span>
+            <span>Productor 1</span>
+          </label>
+        </div>
+        <div class="form-row">
+          <label>
+            <span>Descripción</span>
+            <input type="text" name="Description">
+          </label>
+        </div>
+        <div class="form-row">
+          <label>
+            <span>Tipo de Producto</span>
+            <select name="dropdown">
+              <option>Aguacate</option>
+              <option>Zanahoria</option>
+              <option>Maíz</option>
+              <option>Cebolla</option>
+            </select>
+          </label>
+        </div>
+        <div class="form-row">
+          <label>
+            <span>Precio</span>
+            <input type="price" name="price">
+          </label>
+        </div>
+        <div></div>
+        <div class="form-row">
+          <button type="submit">Submit Form</button>
+        </div>
+      </form>
+    </div>
+  
+
+</body></html>
